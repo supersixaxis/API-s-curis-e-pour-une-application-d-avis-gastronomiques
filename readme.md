@@ -13,30 +13,35 @@ Teste Markdown = important
 
 après, avec le terminal dans le dossier racine du backend
 
-$ npm install
+`$ npm install`
 
 après, création du fichier .env à la racine du répertoire et y mettre les valeurs correctes pour se connecter à une base de donnée mongodb :
 
 `PORT = 3000` (le front fonctionne bien avec le backend sur le port 3000)
+
 `DB_USERNAME="username de la base de donnée mongodb"`
+
 `DB_PASSWORD="password de la base de donnée mongodb"`
+
 `DB_NAME="nom de la base de donnée mongodb"`
+
 `CRYPTOJS_RANDOM_SECRET_KEY = "RANDOM_SEcRET_KEY"`
+
 `JWT_DECODEDTOKEN="RANDOM_TOKEN_SECRET"`
 
-ou prendre le fichier .en.example, mettre les bonnes valeurs et modifier le nom du fichier en .env
+ou prendre le fichier `.en.example`, mettre les bonnes valeurs et modifier le nom du fichier en `.env`
 
 et après
-$ npm run start
+`$ npm run start`
 
 ## FrontEnd 
--téléchargement du frontend ici : https://github.com/OpenClassrooms-Student-Center/dwj-projet6 ou $ git clone https://github.com/OpenClassrooms-Student-Center/dwj-projet6.git frontend
+-téléchargement du frontend ici : https://github.com/OpenClassrooms-Student-Center/dwj-projet6 ou `$ git clone https://github.com/OpenClassrooms-Student-Center/dwj-projet6.git frontend`
 
 après : avec le terminal dans le dossier racine du frontend
 
-$ npm install
+`$ npm install`
 
-$ npm start
+`$ npm start`
 
 Dans le navigateur mettre l'adresse : http://localhost:4200/
 
