@@ -25,8 +25,6 @@ après, création du fichier .env à la racine du répertoire et y mettre les va
 
 `DB_NAME="nom de la base de donnée mongodb"`
 
-`CRYPTOJS_RANDOM_SECRET_KEY = "RANDOM_SEcRET_KEY"`
-
 `JWT_DECODEDTOKEN="RANDOM_TOKEN_SECRET"`
 
 ou prendre le fichier `.en.example`, mettre les bonnes valeurs et modifier le nom du fichier en `.env`
@@ -49,18 +47,13 @@ Pour accéder aux sauces il faut créer un compte en cliquant sur inscription et
 
 ## les dépendances du backend :
 
-bcrypt : hash le password avant de le stocker dans la base de donné
-
-express : framework node.js pour faire la web api
-
-jsonwebtoken: authentification par token
-
-mongoose: pour la base de donnée mongodb
-
-mongoose-unique-validator: pour le controle du mail unique dans la base de donnée
-
-multer : pour l'upload de fichier
-
-nodemon : pour relancer le serveur à chaque modification dans le code source
-
-password-validator: pour valider un mot de passe fort
+* bcrypt : hash le password avant de le stocker dans la base de donné  
+* express : framework node.js pour faire la web api  
+* jsonwebtoken: authentification par token  
+* mongoose: pour la base de donnée mongodb  
+* mongoose-unique-validator: pour le controle du mail unique dans la base de donnée  
+* multer : pour l'upload de fichier  
+* nodemon : pour relancer le serveur à chaque modification dans le code source  
+* password-validator: pour valider un mot de passe fort  
+* dotenv : pour l'utilisation des variables d'environnement  
+* mongoSanitize : protection injection sql  
