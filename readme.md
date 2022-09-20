@@ -1,8 +1,4 @@
 # Installation et mise en service du frontend et du backend
-## Backend
-
-Teste Markdown = important 
-`console.log()`
 
 ## Backend
 
