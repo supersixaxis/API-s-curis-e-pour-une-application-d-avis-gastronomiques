@@ -54,6 +54,5 @@ Pour accéder aux sauces il faut créer un compte en cliquant sur inscription et
 * mongoose-unique-validator: pour le controle du mail unique dans la base de donnée  
 * multer : pour l'upload de fichier  
 * nodemon : pour relancer le serveur à chaque modification dans le code source  
-* password-validator: pour valider un mot de passe fort  
 * dotenv : pour l'utilisation des variables d'environnement  
 * mongoSanitize : protection injection sql  
