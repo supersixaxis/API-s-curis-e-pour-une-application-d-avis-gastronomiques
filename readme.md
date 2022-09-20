@@ -1,8 +1,4 @@
 # Installation et mise en service du frontend et du backend
-## Backend
-
-Teste Markdown = important 
-`console.log()`
 
 ## Backend
 
@@ -57,3 +53,4 @@ Pour accéder aux sauces il faut créer un compte en cliquant sur inscription et
 * password-validator: pour valider un mot de passe fort  
 * dotenv : pour l'utilisation des variables d'environnement  
 * mongoSanitize : protection injection sql  
+* morgan : logger requête et response du server

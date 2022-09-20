@@ -4,7 +4,11 @@ const path = require('path');
 const sauceRoutes = require('./routes/sauce');
 const userRoutes = require('./routes/user')
 const mongoSanitize = require("express-mongo-sanitize");
+const morgan = require("morgan");
 
+
+//logger des requêtes et des réponses.
+app.use(morgan("dev"));
 
 const app = express(); // permet de creer l'appli express
 mongooseinit()
