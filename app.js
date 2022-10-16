@@ -6,10 +6,6 @@ const userRoutes = require('./routes/user')
 const mongoSanitize = require("express-mongo-sanitize");
 const morgan = require("morgan");
 
-
-//logger des requêtes et des réponses.
-app.use(morgan("dev"));
-
 const app = express(); // permet de creer l'appli express
 mongooseinit()
 // permet de ne plus avoir d'erreur cors 
@@ -19,6 +15,9 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
     next();
   });
+
+  //logger des requêtes et des réponses.
+app.use(morgan("dev"));
   
   //protection injection sql
 app.use(
