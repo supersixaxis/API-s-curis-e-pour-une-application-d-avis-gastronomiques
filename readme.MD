@@ -37,7 +37,6 @@ avec le terminal dans le **dossier racine du frontend**
 
 `$ npm install`
 
-`$ npm install node-sass@4.14.1`
 
 `$ npm run start`
 
@@ -46,7 +45,6 @@ Dans le navigateur mettre l'adresse : http://localhost:4200/
 Pour accéder aux sauces il faut **créer un compte** en cliquant sur **inscription** et il faut mettre un **mot de passe fort** (minimum 8 caractères avec des **majuscules**, **minuscules** et **deux chiffres**)   
 
 
-**Note** :  des images de sauce piquante sont dans le dossier `images` pour faire des tests
 
 ## les dépendances du backend
 - **bcrypt** : hash le password avant de le stocker dans la base de donné
